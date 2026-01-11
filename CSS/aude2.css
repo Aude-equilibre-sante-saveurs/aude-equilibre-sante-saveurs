@@ -339,11 +339,11 @@ section {
 }
 
 @media (max-width: 768px) {
-  .background {
-  height: 350px;
-  background-size: contain;
-  background-position: center center;
-}
+  .background { 
+     background-size: contain; 
+     background-position: center; 
+     background-repeat: no-repeat; 
+  }
 
 
   #titre h1 {
