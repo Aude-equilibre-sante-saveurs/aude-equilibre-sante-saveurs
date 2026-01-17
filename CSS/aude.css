@@ -139,7 +139,7 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
+  /*width: 100%;*/
   height: 450px;
   position: relative;
   display: flex;
@@ -147,9 +147,11 @@ nav a:hover {
   justify-content: space-between; /* ⬅️ équilibre gauche/droite */
   padding: 0 60px;
   margin-top: 90px;
-  overflow: hidden;
   transition: background-image 1s ease-in-out;
   box-sizing: border-box;
+  overflow: hidden; /* Empêche tout débordement */ 
+  width: 100vw; /* Force la largeur à la largeur réelle de l’écran */ 
+  max-width: 100%; /* Empêche tout dépassement */ 
 }
 
 #titre {
