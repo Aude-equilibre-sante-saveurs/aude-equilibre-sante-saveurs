@@ -31,8 +31,6 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-
-    // Liste des images du slider
     const slides = [
         "images/slider/av-ap.jpg",
         "images/slider/bg6.jpg",
@@ -40,18 +38,17 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     let index = 0;
+    const img = document.querySelector(".slide-image");
 
-        // Fonction de changement d’image
     function changeSlide() {
         index = (index + 1) % slides.length;
-           }
+        img.src = slides[index];
+    }
 
-    // Change d’image toutes les 5 secondes
     setInterval(changeSlide, 5000);
 });
 </script>
-
-    
+   
 <body>
 <div id="conteneur">
 
