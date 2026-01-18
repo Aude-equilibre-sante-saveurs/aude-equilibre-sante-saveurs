@@ -329,12 +329,12 @@ section {
     gap: 10px;
   }
 
-  .background {
-    justify-content: center;
-    padding: 0 20px;
-    height: 350px;
-    margin-top: 80px;
-    background-color: white;
+  .background { 
+   justify-content: flex-start; 
+   padding-left: 20px; 
+   padding-right: 20px; 
+   height: 300px; /* plus petit mais cohérent */ 
+   margin-top: 70px; 
   }
 
   #titre {
