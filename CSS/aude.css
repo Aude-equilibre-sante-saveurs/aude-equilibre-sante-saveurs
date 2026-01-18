@@ -312,7 +312,14 @@ section {
 
 /* MOBILES */
 @media (max-width: 768px) {
- 
+
+   .flechedroite, 
+   .flechegauche, 
+   .demicerclegauche, 
+   .demicercledroit { 
+      display: none !important; 
+   }
+   
   #section1 {
     flex-direction: column;
     align-items: center;
