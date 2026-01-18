@@ -1,106 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aude équilibre santé et saveurs – Conseillère en nutrition</title>
 
-    <title>Aude équilibre santé et saveurs – Conseillère en nutrition</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/aude.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="CSS/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/aude.css">
+  <!-- SEO -->
+  <meta name="description" content="Aude, conseillère en nutrition au Loroux-Bottereau, vous accompagne avec bienveillance pour une alimentation gourmande et saine. Suivi personnalisé, recettes, conseils santé.">
+  <meta name="keywords" content="nutrition, conseillère en nutrition, alimentation saine, perte de poids, Loroux-Bottereau, Aude équilibre santé et saveurs, suivi nutritionnel, recettes saines">
 
-    <!-- SEO -->
-    <meta name="description" content="Aude, conseillère en nutrition au Loroux-Bottereau, vous accompagne avec bienveillance pour une alimentation gourmande et saine. Suivi personnalisé, recettes, conseils santé.">
-    <meta name="keywords" content="nutrition, conseillère en nutrition, alimentation saine, perte de poids, Loroux-Bottereau, Aude équilibre santé et saveurs, suivi nutritionnel, recettes saines">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aude équilibre santé et saveurs">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aude-equilibre-sante-saveurs.github.io/">
+  <meta property="og:image" content="https://aude-equilibre-sante-saveurs.github.io/images/logo.png">
+  <meta property="og:description" content="Ancienne infirmière passionnée de nutrition, j’aide les personnes à retrouver une alimentation gourmande et saine.">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Aude équilibre santé et saveurs">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aude-equilibre-sante-saveurs.github.io/">
-    <meta property="og:image" content="https://aude-equilibre-sante-saveurs.github.io/images/logo.png">
-    <meta property="og:description" content="Ancienne infirmière passionnée de nutrition, j’aide les personnes à retrouver une alimentation gourmande et saine.">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aude équilibre santé et saveurs">
-    <meta name="twitter:description" content="Ancienne infirmière passionnée de nutrition, j’aide les personnes à retrouver une alimentation gourmande et saine.">
-    <meta name="twitter:image" content="https://aude-equilibre-sante-saveurs.github.io/images/logo.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aude équilibre santé et saveurs">
+  <meta name="twitter:description" content="Ancienne infirmière passionnée de nutrition, j’aide les personnes à retrouver une alimentation gourmande et saine.">
+  <meta name="twitter:image" content="https://aude-equilibre-sante-saveurs.github.io/images/logo.png">
 </head>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const slides = [
-        "images/slider/av-ap.jpg",
-        "images/slider/bg6.jpg",
-        "images/slider/bg5.jpg"
-    ];
-
-    let index = 0;
-    const img = document.querySelector(".slide-image");
-
-    function changeSlide() {
-        index = (index + 1) % slides.length;
-        img.src = slides[index];
-    }
-
-    setInterval(changeSlide, 5000);
-});
-</script>
-   
 <body>
 <div id="conteneur">
 
 <!-- SECTION 1 : MENU -->
 <section id="section1">
-    <div id="logo">
-        <p class="titre-site">
-            <span class="nom-site">Aude équilibre santé et saveurs - Conseillère en nutrition</span><br>
-            <span class="slogan-site">Se faire du bien avec gourmandise</span>
-        </p>
-    </div>
+  <div id="logo">
+    <p class="titre-site">
+      <span class="nom-site">Aude équilibre santé et saveurs - Conseillère en nutrition</span><br>
+      <span class="slogan-site">Se faire du bien avec gourmandise</span>
+    </p>
+  </div>
 
-    <div id="menu">
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="#section11">Ma présentation</a></li>
-                <li><a href="#section4">Ma méthode</a></li>
-                <li><a href="#section7">Mes plats</a></li>
-                <li><a href="#section12">Mon offre</a></li>
-                <li><a href="#section10">Mes coordonnées</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div id="menu">
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#section11">Ma présentation</a></li>
+        <li><a href="#section4">Ma méthode</a></li>
+        <li><a href="#section7">Mes plats</a></li>
+        <li><a href="#section12">Mon offre</a></li>
+        <li><a href="#section10">Mes coordonnées</a></li>
+      </ul>
+    </nav>
+  </div>
 </section>
 
-<!-- SECTION 2 : IMAGE + TEXTE -->
+<!-- SECTION 2 : SLIDER -->
 <section id="section2">
-    <div class="background">
-       <img class="slide-image" src="images/slider/av-ap.jpg" alt="">  
-        <div id="titre">
-            <h1>
-                Infirmière, passionnée de nutrition,<br>
-                j'aide les personnes voulant manger<br>
-                de façon gourmande et saine afin<br>
-                d'être bien dans leur corps.<br>
-                <span class="accroche">Vous souhaitez un suivi alimentaire ? Je vous aide à le suivre !</span>
-            </h1>
-         </div>
-        </div>
-
-        <!--<a href="aude-equilibre-sante-et-saveurs2.html">
-            <i class="fa fa-chevron-right flechedroite"></i>
-        </a>
-
-        <a href="aude-equilibre-sante-et-saveurs3.html">
-            <i class="fa fa-chevron-left flechegauche"></i>
-        </a>
-
-        <div class="demicerclegauche"></div>
-        <div class="demicercledroit"></div>
-    </div> -->
+  <div class="background">
+    <img class="slide-image" src="images/slider/av-ap.jpg" alt="slide nutrition">
+    <div id="titre">
+      <h1>
+        Infirmière, passionnée de nutrition,<br>
+        j'aide les personnes voulant manger<br>
+        de façon gourmande et saine afin<br>
+        d'être bien dans leur corps.<br>
+        <span class="accroche">Vous souhaitez un suivi alimentaire ? Je vous aide à le suivre !</span>
+      </h1>
+    </div>
+    <div class="demicerclegauche"></div>
+    <div class="demicercledroit"></div>
+    <i class="fa fa-chevron-left flechegauche"></i>
+    <i class="fa fa-chevron-right flechedroite"></i>
+  </div>
 </section>
 
 <!-- SECTION 3 : BORDURE -->
@@ -108,147 +79,85 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <!-- SECTION 11 : PRESENTATION -->
 <section id="section11">
-    <h2>MA PRÉSENTATION</h2>
-
-    <img src="images/pomme.JPG" class="image" alt="pomme">
-
-    <p class="bloc-orange">
-        Bonjour à tous !<br>
-        Je m'appelle Aude, j'ai 45 ans et j'ai suivi des études d'infirmière puis une formation en nutrition du médecin nutritionniste Yann Rougier.<br>
-        Mon parcours est semblable à celui de beaucoup de femmes : prises de poids, régimes successifs, frustrations, victoires éphémères…<br>
-        À 40 ans, j'ai décidé de <strong>faire la paix avec mon corps</strong>, de le comprendre et de lui apporter la <strong>bienveillance</strong> que je donnais aux autres.
-    </p>
-
-    <ul class="liste-orange">
-        <li>Mon expérience</li>
-        <li>Mes connaissances et mon analyse</li>
-        <li>Ma bienveillance</li>
-        <li>Ma motivation et mon énergie</li>
-    </ul>
-
-    <p class="bloc-orange">
-        Je propose un accompagnement personnalisé basé sur des connaissances scientifiques et mes expériences personnelles.<br>
-        Je propose des <strong>recettes gourmandes et saines</strong> et une éducation à la <strong>nutrition pleine santé</strong>.<br>
-        Rejoignez-moi pour un <strong style="color:red">résultat garanti</strong> !
-    </p>
+  <h2>MA PRÉSENTATION</h2>
+  <img src="images/pomme.JPG" class="image" alt="pomme">
+  <p class="bloc-orange">Bonjour à tous !<br>Je m'appelle Aude, j'ai 45 ans et j'ai suivi des études d'infirmière puis une formation en nutrition du médecin nutritionniste Yann Rougier.<br>Mon parcours est semblable à celui de beaucoup de femmes : prises de poids, régimes successifs, frustrations, victoires éphémères…<br>À 40 ans, j'ai décidé de <strong>faire la paix avec mon corps</strong>, de le comprendre et de lui apporter la <strong>bienveillance</strong> que je donnais aux autres.</p>
+  <ul class="liste-orange">
+    <li>Mon expérience</li>
+    <li>Mes connaissances et mon analyse</li>
+    <li>Ma bienveillance</li>
+    <li>Ma motivation et mon énergie</li>
+  </ul>
+  <p class="bloc-orange">Je propose un accompagnement personnalisé basé sur des connaissances scientifiques et mes expériences personnelles.<br>Je propose des <strong>recettes gourmandes et saines</strong> et une éducation à la <strong>nutrition pleine santé</strong>.<br>Rejoignez-moi pour un <strong style="color:red">résultat garanti</strong> !</p>
 </section>
 
 <!-- SECTION 4 : MA METHODE -->
 <section id="section4">
-    <h2>MA MÉTHODE</h2>
-    <img src="images/pomme.JPG" class="image" alt="pomme">
-    <p class="bloc-orange">Je conseille les personnes pour adopter les réflexes santé sans prise de tête.</p>
+  <h2>MA MÉTHODE</h2>
+  <img src="images/pomme.JPG" class="image" alt="pomme">
+  <p class="bloc-orange">Je conseille les personnes pour adopter les réflexes santé sans prise de tête.</p>
 </section>
 
 <div id="conteneurservices">
 
 <!-- SECTION 5 : IMAGE -->
 <section id="section5">
-    <img src="images/plats/Couronne-Pomme-Cannelle.JPG" class="elementservices" alt="Couronne pomme cannelle">
+  <img src="images/plats/Couronne-Pomme-Cannelle.JPG" class="elementservices" alt="Couronne pomme cannelle">
 </section>
 
 <!-- SECTION 6 : SERVICES -->
 <section id="section6" class="elementservices bloc-orange">
-
-    <div class="conteneurconseil">
-        <div class="elementconseil"><i class="fa fa-university"></i></div>
-        <div class="elementconseil">
-            <h3>Éducation</h3>
-            <p>J'éduque mes clients à la nutrition santé afin qu'ils fassent les bons choix.</p>
-        </div>
+  <div class="conteneurconseil">
+    <div class="elementconseil"><i class="fa fa-university"></i></div>
+    <div class="elementconseil">
+      <h3>Éducation</h3>
+      <p>J'éduque mes clients à la nutrition santé afin qu'ils fassent les bons choix.</p>
     </div>
-
-    <div class="conteneurconseil">
-        <div class="elementconseil"><i class="fa fa-list-ol"></i></div>
-        <div class="elementconseil">
-            <h3>Organisation</h3>
-            <p>Je les aide à organiser leurs menus et leurs courses pour éviter la charge mentale.</p>
-        </div>
+  </div>
+  <div class="conteneurconseil">
+    <div class="elementconseil"><i class="fa fa-list-ol"></i></div>
+    <div class="elementconseil">
+      <h3>Organisation</h3>
+      <p>Je les aide à organiser leurs menus et leurs courses pour éviter la charge mentale.</p>
     </div>
-
-    <div class="conteneurconseil">
-        <div class="elementconseil"><i class="fa fa-laptop"></i></div>
-        <div class="elementconseil">
-            <h3>Accompagnement</h3>
-            <p>Je garde le contact via Whatsapp pour maintenir la motivation.</p>
-        </div>
+  </div>
+  <div class="conteneurconseil">
+    <div class="elementconseil"><i class="fa fa-laptop"></i></div>
+    <div class="elementconseil">
+      <h3>Accompagnement</h3>
+      <p>Je garde le contact via Whatsapp pour maintenir la motivation.</p>
     </div>
-
+  </div>
 </section>
 </div>
 
 <!-- SECTION 7 : MES PLATS -->
 <section id="section7">
-    <h2>MES PLATS</h2>
-    <img src="images/pomme.JPG" class="image" alt="pomme">
-    <p class="bloc-orange">Voici une présentation des plats que je peux vous proposer :</p>
+  <h2>MES PLATS</h2>
+  <img src="images/pomme.JPG" class="image" alt="pomme">
+  <p class="bloc-orange">Voici une présentation des plats que je peux vous proposer :</p>
 </section>
 
 <!-- SECTION 9 : IMAGES DES PLATS -->
 <section id="section9">
-
-    <div class="survol">
-        <img src="images/plats/ChoucrouteAlsacienne.JPG" class="imageportfolio" alt="Choucroute alsacienne">
-        <div class="port"><strong>Choucroute</strong></div>
-    </div>
-
-    <div class="survol">
-        <img src="images/plats/plat2.JPG" class="imageportfolio" alt="Tian au fromage de chèvre">
-        <div class="port"><strong>Tian au fromage de chèvre frais</strong></div>
-    </div>
-
-    <div class="survol">
-        <img src="images/plats/cheesecake.jpg" class="imageportfolio" alt="Cheesecake">
-        <div class="port"><strong>Cheesecake</strong></div>
-    </div>
-
-    <div class="survol">
-        <img src="images/plats/plat4.jpg" class="imageportfolio" alt="Beignets quinoa épinard feta">
-        <div class="port"><strong>Beignets quinoa épinard feta</strong></div>
-    </div>
-
+  <div class="survol">
+    <img src="images/plats/ChoucrouteAlsacienne.JPG" class="imageportfolio" alt="Choucroute alsacienne">
+    <div class="port"><strong>Choucroute</strong></div>
+  </div>
+  <div class="survol">
+    <img src="images/plats/plat2.JPG" class="imageportfolio" alt="Tian au fromage de chèvre">
+    <div class="port"><strong>Tian au fromage de chèvre frais</strong></div>
+  </div>
+  <div class="survol">
+    <img src="images/plats/cheesecake.jpg" class="imageportfolio" alt="Cheesecake">
+    <div class="port"><strong>Cheesecake</strong></div>
+  </div>
+  <div class="survol">
+    <img src="images/plats/plat4.jpg" class="imageportfolio" alt="Beignets quinoa épinard feta">
+    <div class="port"><strong>Beignets quinoa épinard feta</strong></div>
+  </div>
 </section>
 
 <!-- SECTION 12 : OFFRE -->
 <section id="section12">
-    <h2>MON OFFRE</h2>
-    <img src="images/pomme.JPG" class="image" alt="pomme">
-
-    <p class="bloc-orange">Parce que le changement s'inscrit dans le temps, je vous propose :</p>
-
-    <ol class="bloc-orange">
-        <li><strong>Un accompagnement de 3 mois :</strong></li>
-        <ul>
-            <li>1 rendez-vous par mois en visio ou à domicile</li>
-            <li>1 échange hebdomadaire en visio</li>
-            <li>Échanges quotidiens via Whatsapp</li>
-            <li>Suivi des menus</li>
-            <li>Suivi des courses</li>
-            <li>Éducation à la santé</li>
-            <li>Motivation continue</li>
-        </ul>
-        <p>Prix : 300€</p>
-
-        <li><strong>Un rendez-vous ponctuel</strong></li>
-        <p>Prix : 60€</p>
-
-        <li><strong>Une offre découverte</strong></li>
-        <p>Prix : 60€</p>
-    </ol>
-</section>
-
-<!-- SECTION 10 : CONTACT -->
-<section id="section10">
-    <div class="table1">
-        <h2>Mes coordonnées</h2>
-        <p>Aude équilibre santé et saveurs</p>
-        <p>Téléphone : 06 14 42 40 92</p>
-        <p>E-mail : <a href="mailto:auderocher67@outlook.fr">auderocher67@outlook.fr</a></p>
-        <p>Retrouvez-moi sur Facebook, Instagram et Whatsapp :</p>
-        <img src="images/social/request-social-media.png" class="social" alt="réseaux sociaux">
-    </div>
-</section>
-
-</div>
-</body>
-</html>
+  <h2>MON OFFRE</h2
