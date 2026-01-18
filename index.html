@@ -1,4 +1,4 @@
-x<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -41,14 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let index = 0;
 
-    // Sélectionne la div .background
-    const bg = document.querySelector(".background");
-
-    // Fonction de changement d’image
+        // Fonction de changement d’image
     function changeSlide() {
         index = (index + 1) % slides.length;
-        bg.style.backgroundImage = "url(" + slides[index] + ")";
-    }
+           }
 
     // Change d’image toutes les 5 secondes
     setInterval(changeSlide, 5000);
