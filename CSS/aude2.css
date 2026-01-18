@@ -306,7 +306,7 @@ section {
     align-items: center;
     text-align: center;
     padding: 5px 10px;
-    background-color: darkgreen;
+    background-color: green;
   }
 
   nav ul {
@@ -325,7 +325,7 @@ section {
   #titre {
     text-align: center;
     margin: 0 auto;
-    color: PapayaWhip;
+    color: green;
   }
 
   #titre h1 {
